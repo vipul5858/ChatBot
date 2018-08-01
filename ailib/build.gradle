@@ -1,0 +1,84 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
+        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+        versionCode Integer.parseInt(project.VERSION_CODE)
+        versionName project.VERSION_NAME
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    buildTypes {
+        release {
+            // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            buildConfigField "int", "TESTS_SDK", "22"
+        }
+        debug{
+            buildConfigField "int", "TESTS_SDK", "22"
+        }
+    }
+    productFlavors {
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'LICENSE.txt'
+    }
+    buildToolsVersion '26.0.2'
+}
+
+dependencies {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'commons-io:commons-io:2.4'
+    compile 'ai.api:libai:1.4.8'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:1.7.0'
+    testCompile 'org.robolectric:robolectric:3.1.2'
+    implementation 'com.squareup.dagger:dagger:1.2.1'
+}
+
+apply from: '../gradle-mvn-push.gradle'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        // the latest version of the android-apt plugin
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        //compile 'com.google.dagger:dagger:2.0'
+       // annotationProcessor 'com.google.dagger:dagger-compiler:2.0'
+       // annotationProcessor  "org.apache.logging.log4j:log4j-core:1.8"
+      //  annotationProcessor 'com.google.auto.value:auto-value:1.8'
+
+    }
+    //javaCompileOptions { annotationProcessorOptions { includeCompileClasspath false } }
+}
+
+//apply plugin: 'com.neenbedankt.android-apt'
+
+// block for building library jars
+android.libraryVariants.all { variant ->
+  def name = variant.buildType.name
+  def task = project.tasks.create "jar${name.capitalize()}", Jar
+  task.dependsOn variant.javaCompile
+  task.from variant.javaCompile.destinationDir
+  artifacts.add('archives', task);
+}
