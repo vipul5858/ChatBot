@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:2:5-21
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+		ADDED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:1-6:12
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+		ADDED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:1-6:12
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml:4:5-5:12
+uses-sdk
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+		ADDED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+		ADDED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml
+		INJECTED from Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\AndroidManifest.xml

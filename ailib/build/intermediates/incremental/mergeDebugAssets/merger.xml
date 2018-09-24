@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\main\assets"/><source path="Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="Y:\android_studio_bin\android-chat-ui-master\android-chat-ui-master\ailib\src\debug\assets"/></dataSet></merger>

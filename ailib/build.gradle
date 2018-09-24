@@ -34,7 +34,7 @@ android {
         exclude 'META-INF/NOTICE.txt'
         exclude 'LICENSE.txt'
     }
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {
@@ -43,13 +43,13 @@ dependencies {
         mavenCentral()
     }
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:support-v4:23.2.1'
-    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.android.support:support-v4:28.0.0'
+    compile 'com.google.code.gson:gson:2.8.0'
     compile 'commons-io:commons-io:2.4'
     compile 'ai.api:libai:1.4.8'
     testCompile 'junit:junit:4.12'
-    testCompile 'org.assertj:assertj-core:1.7.0'
-    testCompile 'org.robolectric:robolectric:3.1.2'
+    testCompile 'org.assertj:assertj-core:2.6.0'
+    testCompile 'org.robolectric:robolectric:3.6.1'
     implementation 'com.squareup.dagger:dagger:1.2.1'
 }
 
@@ -78,7 +78,6 @@ buildscript {
 android.libraryVariants.all { variant ->
   def name = variant.buildType.name
   def task = project.tasks.create "jar${name.capitalize()}", Jar
-  task.dependsOn variant.javaCompile
-  task.from variant.javaCompile.destinationDir
-  artifacts.add('archives', task);
+
+  artifacts.add('archives', task)
 }

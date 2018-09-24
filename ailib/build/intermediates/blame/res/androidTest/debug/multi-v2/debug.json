@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,8,9,10,11,12,13,14,15,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,163,213,901,959,1017,1065,1108,1165,1226,1252,1654",
+                        "endLines": "2,3,4,5,8,9,10,11,12,13,14,21,37",
+                        "endColumns": "55,51,49,51,57,57,47,42,56,60,25,12,9",
+                        "endOffsets": "106,158,208,260,954,1012,1060,1103,1160,1221,1247,1649,2509"
+                    }
+                }
+            ]
+        }
+    ]
+}

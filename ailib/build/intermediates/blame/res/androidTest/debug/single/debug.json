@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_speaker_silent.png.flat",
+        "source": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\speaker_silent.png"
+    },
+    {
+        "merged": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_speaker.png.flat",
+        "source": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\speaker.png"
+    },
+    {
+        "merged": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_aidialog.xml.flat",
+        "source": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\bundles\\debug\\res\\layout\\aidialog.xml"
+    },
+    {
+        "merged": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_mic_control.xml.flat",
+        "source": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\bundles\\debug\\res\\drawable\\mic_control.xml"
+    },
+    {
+        "merged": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_microphone_control.png.flat",
+        "source": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\microphone_control.png"
+    },
+    {
+        "merged": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_version_config.json.flat",
+        "source": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\bundles\\debug\\res\\raw\\version_config.json"
+    },
+    {
+        "merged": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_mic_colors.xml.flat",
+        "source": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\bundles\\debug\\res\\color\\mic_colors.xml"
+    },
+    {
+        "merged": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_cube.png.flat",
+        "source": "Y:\\android_studio_bin\\android-chat-ui-master\\android-chat-ui-master\\ailib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\cube.png"
+    }
+]
